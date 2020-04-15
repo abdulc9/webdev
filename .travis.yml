@@ -1,14 +1,13 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
 cache:
   directories:
-    - "node_modules"
-
+  - node_modules
 deploy:
   provider: heroku
   api_key:
-    secure: 241675c3-cfe8-4a8c-9db7-da19d33ca548
+    secure: eOouoVNQKFVGc5iVO4b4NQSnfhkB/dRVFqtJ4lxdYeA9LzvrbUyEpbvztzRoZHoSlIiXjjIJY7leoOoGnIwRazJTaHZ5LVLxxS7XWFmHSPFcJKJnrU07i8D+ofuFAAMM/P73suIp3WN+fLKDYfhkoB/gUqIrd+UZ7o3rPe2Le8Wtq2+liLXxm0Zj3kcEk3ApOukMJYc/ipoT80Ka+ejWCdPSyEyEaTFy3nceAkSGs0RqMHW27sTLDMWdeACnTu3zQvijqSIlhlTfjnsYAJKirYaJAApIWthMHByrfk7G2rXVyJZYLA9WvEEdnsSs3OWY0r8ygfqCwkFSILpIVIFci3cjS0aUxdiiA0DNlXNpIqWZL9jDLq5H4BBOtj3JBBdNbIpDAypDiMnEO+0bi7yHe8iejfdoVSPBM7yKwF9NqNU9z6oJ2V6wkbOR+1syFT6MSW61SglyRf2+zeGlDJaljKEX4aulMfxjCb9+EjcLiitY0S+WvF5flUfroMu3wjmTLmzmjrpDwIz3geG8sYGLZCcT4NBrDlKa+MF8wrcVe6Uz9as2vYjlHir5VEqanPEZ+pPVI+nwzir0fP3VBgSdk4cCu5YeCwzcgz724K/1AkL1GSbVVEWzMpQ8Zs/fgOB99N7NX9FcGLZJNNvYOlTxmg4ZhQ9eUJpscOJLOTcsQnQ=
   app: campgrounds-heroku
   on:
     repo: abdulc9/webdev
