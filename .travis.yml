@@ -1,4 +1,4 @@
-language: ruby
+language: node_js
 cache:
 - node_modules
 deploy:
