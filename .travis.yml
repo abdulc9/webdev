@@ -1,0 +1,10 @@
+language: ruby
+cache:
+- node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: 241675c3-cfe8-4a8c-9db7-da19d33ca548
+  app: campgrounds-heroku
+  on:
+    repo: abdulc9/webdev
