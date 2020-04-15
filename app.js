@@ -45,8 +45,8 @@ app.use(indexRoutes);
 app.use(campgroundRoutes);
 
 
+var port=process.env.PORT || 5000
 
-
-app.listen(3000,function(){
+app.listen(port ,function(){
     console.log("server is listening");
 });
