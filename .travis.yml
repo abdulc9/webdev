@@ -8,6 +8,6 @@ deploy:
   provider: heroku
   api_key:
     secure: fNnsHoaIx04BG+nadBLjpNHb7LKd/qqMixjyQMEZdySAVqcxIgV3NnMdthC5eWQPavXKxuwvr2e8cx80PiyCREEf0eG3CdhR+NgMOLsABm+g3oM1dEzudxMuh2QiePmwoP/yQCHLijfWf4aaIEhqVbw2W8BI3CYTX/AZyetdGcBJgU9MK930oY9TRlxGdVvZdy2u8aGMOxsJB3aiiOVKIC7Bi83BjUw0kf5fvb1UMKs4oosP8jFU2R/fXk0gqZzJBGmQQxWsM8Vpsc44wj0Grpm8qJJSKJzLba3OE5XT1qTSsypccbsteJELa3NuVTK6/qvzgtjKpnLEgx0LOR94ufpuF+2tt/vOz7vBJPdJ7M3dmroVsIBjGPm8FeAs2aITKNd+Ihmm8GKq2SkS0PtGd+QiGJl/bH4jW0NtzDTP8yFpb6NRazqNS+yPAc/betkMKvuO3ViHqNxzvca4xsRrWxZPvXqCy/lE7f0vxQEm9ph/xOjV2iwM1LjYPdCJGRsK5+ggPdWwf4CdRv/wL6PmE7sxoGfBcZwpQpuoRr3l7hLJ8LrP/nYSMwKXGKQG2vx5kMtC7Qy5xu+eQ6zTi0v2UXkmex5Fs8/jIVcWSZQQtwAVFVgvOp/3tTomlfj9uMMe5eAST99qyUOxmHIPz4CRO0FUJ9bcUE1BzrEJxllTuow=
-  app: webdev
+  app: campgrounds-heroku
   on:
     repo: abdulc9/webdev
