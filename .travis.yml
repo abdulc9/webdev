@@ -5,4 +5,10 @@ cache:
   directories:
   - node_modules
 
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: EmkGRUGPAtgot3ZIZrk8Sm02lv9pvOfk9SmZFv5zJjuWyEnrOg/jUde4qubUIC4SHSCQVi2CqgFWeH9oDShzbb+a3e7MYot5XBJmZ7rfMzDK3UB58AxLlKXxjVQCNqIAO3zosO9WudwVFGawaKvJSMRRHlo1E7dLC+IT5K6XCBWcMUMsTztCIbZ/GNDnsH7pcgZSxU+89kO89Cmxbvz7zSLtPAsM9LG+p2c2cM63t8QiAv+LBH6Eg4CbDWbBjwLuaHvPtbQ9Mjp4B3HQauvz/PAfmZ6148PcRVCA95smwgYGQMKSGtMUy/yT0HXKsKWahjpZL3FC48NjCmoaXja//L5AmCnqkwacFjHFb6RsbBqvue8miLPoAVEyK/SfuBW5ozZvPPysEaTxOKGNrIEc6emhY27krXHlUieDYdPkWs7s1iypEapNFJC7eqllDXuBEgi4BHGgfjPHvR/yWCoE0bZXdXsM5h0OOnjDw8D8ZF4IEWIXpqOF5CocOqvkyE3AP8FKvzQsojQddGYqTbMVCfLecNqynA9BDcEWHh48JiDD43F6NvZ0qp+Ytw6QcxMTZBHKIdl6GnhnDyw/YIsAP7Y7NrJNvgowlEjLqlD0KRYr1QgrXK7ZKu5jiesDTMcavUEOKmV/8DfBHDLSXxDj/zH8kyKhJ9e70IbQDthYWKQ=
+  app: campgrounds-heroku
+  on:
+    repo: abdulc9/webdev
