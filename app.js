@@ -16,7 +16,7 @@ var commentRoutes=require("./routes/campground"),
 
 app.use(bodyparser.urlencoded({extended:true}));
 
-var c="mongodb+srv://abdul:abdul@mongodb@cluster0.9jqm3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+var c="mongodb+srv://abdul:abdul@yelpcamp.9jqm3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(c);
 app.use(methodOverride("_method"));
 app.use(flash());
