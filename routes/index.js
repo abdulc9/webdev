@@ -30,7 +30,7 @@ router.get("/login",function(req,res){
 });
 router.post("/login",passport.authenticate("local",{
     successRedirect:"/campground",
-    failureRedirect:"/login"
+    failureRedirect:"/register"
     
 }),
     function(req,res){
